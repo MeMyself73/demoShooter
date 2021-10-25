@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+
+.campo {
+    height: 80vh;
+    background-color: aqua;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.campo h1 {
+    color: red;
+}
+
+.campo p {
+    color: red;
+    font-size: 0.8em;
+}
+
+.hud {
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empezar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: chartreuse;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.puntuacion h2,
+.puntuacion h1,
+.vidas h2,
+.vidas h1,
+.highscore h2,
+.highscore h1 {
+    display: flex;
+    justify-content: center;
+}
